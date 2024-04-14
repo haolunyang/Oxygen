@@ -1,6 +1,8 @@
 # Oxygen
-Oxygen is an open-source visionOS app, built with SwiftUI, RealityKit, and OpenAI API, allowing people to brainstorm in spatial contexts and elevate their ideas with AI.
-![Oxygen Screenshot](https://github.com/haolunyang/Oxygen/assets/104784012/7d0fd2dd-f8a6-4e92-8471-054445528d26)
+Oxygen is an open-source visionOS app that allows people to brainstorm in spatial contexts and elevate their ideas with AI. Built with SwiftUI, RealityKit, and OpenAI API.
+
+![Oxygen Screenshot](https://github.com/haolunyang/Oxygen/assets/104784012/598462eb-2645-4e73-af7a-53d8d1b2f898)
+
 
 ## Spatial Brainstorm, Powered by AI.
 Currently, people’s thoughts and creativities are limited to a 2D canvas, and their thoughts have no connection with the spatial context. With Oxygen, you can have an infinite canvas to capture your inspirations, while connecting them with your environment and elevating them with AI.
