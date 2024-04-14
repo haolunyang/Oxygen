@@ -10,14 +10,23 @@ Currently, people’s thoughts and creativities are limited to a 2D canvas, and 
 ## Learn to create your own visionOS app with Oxygen
 We are designers who code, and Oxygen is our way of contributing to a future in which every designer can prototype with real code and design "how it works."
 
-If you are also starting to learn SwiftUI for visionOS to get ready for the era of spatial computing, Oxygen has all the fundamental components you will need to start creating your own visionOS app, including SwiftUI, USDZ model, immersive space, connecting to OpenAI API, etc.
+If you are also starting to learn SwiftUI for visionOS to get ready for the era of spatial computing, Oxygen has all the fundamental components you will need to start, including SwiftUI, USDZ model, immersive space, connecting to OpenAI API, etc.
 
 ## Creators of the project
-**Haolun Yang**
+**Haolun Yang** ([@haolun_yang](https://twitter.com/Haolun_Yang))
+
 Lead Designer, Design Engineer - SwiftUI, RealityKit
 
-**George Kim**
+**George Kim** ([@george_kimm](https://twitter.com/george_kimmm))
+
 Design Engineer - OpenAI API, RealityKit
 
 **Andrew Huang**
+
 Usability Researcher
+
+## SwiftUI & visionOS resources:
+
+[SixD (SwiftUI & Interaction Design) - Haolun Yang](https://apps.apple.com/us/app/sixd/id6448773500)
+
+[Learn about visionOS - Apple](https://apps.apple.com/us/app/sixd/id6448773500)
