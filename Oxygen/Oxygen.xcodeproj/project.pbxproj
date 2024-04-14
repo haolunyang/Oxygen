@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C61E4F02BCC753F00407C94 /* OxygenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E4EF2BCC753F00407C94 /* OxygenApp.swift */; };
+		1C61E4F22BCC753F00407C94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E4F12BCC753F00407C94 /* ContentView.swift */; };
+		1C61E4F42BCC754000407C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C61E4F32BCC754000407C94 /* Assets.xcassets */; };
+		1C61E4F72BCC754000407C94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C61E4F62BCC754000407C94 /* Preview Assets.xcassets */; };
+		1C61E4FE2BCC756A00407C94 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E4FD2BCC756900407C94 /* HistoryView.swift */; };
+		1C61E5002BCC757100407C94 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E4FF2BCC757100407C94 /* ImmersiveView.swift */; };
+		1C61E5022BCC757A00407C94 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E5012BCC757A00407C94 /* NoteView.swift */; };
+		1C61E5042BCC757F00407C94 /* OpenAIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C61E5032BCC757F00407C94 /* OpenAIAPI.swift */; };
+		1C61E5062BCC758900407C94 /* OxygenOrb.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C61E5052BCC758900407C94 /* OxygenOrb.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C61E4EC2BCC753F00407C94 /* Oxygen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oxygen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C61E4EF2BCC753F00407C94 /* OxygenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxygenApp.swift; sourceTree = "<group>"; };
+		1C61E4F12BCC753F00407C94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C61E4F32BCC754000407C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C61E4F62BCC754000407C94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C61E4FD2BCC756900407C94 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1C61E4FF2BCC757100407C94 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1C61E5012BCC757A00407C94 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		1C61E5032BCC757F00407C94 /* OpenAIAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPI.swift; sourceTree = "<group>"; };
+		1C61E5052BCC758900407C94 /* OxygenOrb.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OxygenOrb.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C61E4E92BCC753F00407C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C61E4E32BCC753F00407C94 = {
+			isa = PBXGroup;
+			children = (
+				1C61E4EE2BCC753F00407C94 /* Oxygen */,
+				1C61E4ED2BCC753F00407C94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C61E4ED2BCC753F00407C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C61E4EC2BCC753F00407C94 /* Oxygen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C61E4EE2BCC753F00407C94 /* Oxygen */ = {
+			isa = PBXGroup;
+			children = (
+				1C61E4EF2BCC753F00407C94 /* OxygenApp.swift */,
+				1C61E4F12BCC753F00407C94 /* ContentView.swift */,
+				1C61E4FD2BCC756900407C94 /* HistoryView.swift */,
+				1C61E4FF2BCC757100407C94 /* ImmersiveView.swift */,
+				1C61E5012BCC757A00407C94 /* NoteView.swift */,
+				1C61E5032BCC757F00407C94 /* OpenAIAPI.swift */,
+				1C61E5052BCC758900407C94 /* OxygenOrb.usdz */,
+				1C61E4F32BCC754000407C94 /* Assets.xcassets */,
+				1C61E4F52BCC754000407C94 /* Preview Content */,
+			);
+			path = Oxygen;
+			sourceTree = "<group>";
+		};
+		1C61E4F52BCC754000407C94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C61E4F62BCC754000407C94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C61E4EB2BCC753F00407C94 /* Oxygen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C61E4FA2BCC754000407C94 /* Build configuration list for PBXNativeTarget "Oxygen" */;
+			buildPhases = (
+				1C61E4E82BCC753F00407C94 /* Sources */,
+				1C61E4E92BCC753F00407C94 /* Frameworks */,
+				1C61E4EA2BCC753F00407C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oxygen;
+			productName = Oxygen;
+			productReference = 1C61E4EC2BCC753F00407C94 /* Oxygen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C61E4E42BCC753F00407C94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1C61E4EB2BCC753F00407C94 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1C61E4E72BCC753F00407C94 /* Build configuration list for PBXProject "Oxygen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C61E4E32BCC753F00407C94;
+			productRefGroup = 1C61E4ED2BCC753F00407C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C61E4EB2BCC753F00407C94 /* Oxygen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C61E4EA2BCC753F00407C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C61E4F72BCC754000407C94 /* Preview Assets.xcassets in Resources */,
+				1C61E4F42BCC754000407C94 /* Assets.xcassets in Resources */,
+				1C61E5062BCC758900407C94 /* OxygenOrb.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C61E4E82BCC753F00407C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C61E5042BCC757F00407C94 /* OpenAIAPI.swift in Sources */,
+				1C61E4F22BCC753F00407C94 /* ContentView.swift in Sources */,
+				1C61E5022BCC757A00407C94 /* NoteView.swift in Sources */,
+				1C61E4FE2BCC756A00407C94 /* HistoryView.swift in Sources */,
+				1C61E5002BCC757100407C94 /* ImmersiveView.swift in Sources */,
+				1C61E4F02BCC753F00407C94 /* OxygenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C61E4F82BCC754000407C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C61E4F92BCC754000407C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C61E4FB2BCC754000407C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oxygen/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haolunyang.Oxygen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		1C61E4FC2BCC754000407C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oxygen/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haolunyang.Oxygen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C61E4E72BCC753F00407C94 /* Build configuration list for PBXProject "Oxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C61E4F82BCC754000407C94 /* Debug */,
+				1C61E4F92BCC754000407C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C61E4FA2BCC754000407C94 /* Build configuration list for PBXNativeTarget "Oxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C61E4FB2BCC754000407C94 /* Debug */,
+				1C61E4FC2BCC754000407C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C61E4E42BCC753F00407C94 /* Project object */;
+}
